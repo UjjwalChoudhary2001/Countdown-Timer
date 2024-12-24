@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(78, 78, 87);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(122, 122, 140);
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+#countdown {
+  display: flex;
+  justify-content: space-around;
+}
+
+#countdown div {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(155, 160, 164);
+  color: black;
+  display: flex; /*To show day,hrs,min,sec on next line*/
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+}
+
+span {
+  font-size: xx-large;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.progress-container {
+  background-color: white;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+#progress-bar {
+  transition: width 1s 0s ease-in-out;
+  /* width: 50%; */
+  width: 0%;
+  border-radius: 5px;
+  height: 100%;
+  background-color: greenyellow;
+}
